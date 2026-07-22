@@ -1,43 +1,38 @@
-# React Chair Store
+# 🪑 React Chair Store
 
-A modern and responsive furniture store built with React and Vite.
+A modern and responsive furniture store application built with **React**, **Vite**, and **React Router**. The project provides a clean shopping experience with product browsing, category filtering, and a responsive user interface.
 
-## Features
+## 🚀 GitHub Repository
 
-- Responsive Design
-- React Router
-- Product Categories
-- Modern UI
-- Reusable Components
+👉 **[View the Project on GitHub](https://github.com/fshoja/react-chair-store)**
 
-## Technologies
+
+## 📸 Preview
+
+![React Chair Store](./public/preview.png)
+
+
+
+## ✨ Features
+
+- Responsive design
+- Modern React components
+- React Router navigation
+- Product listing and categories
+- Clean and reusable code structure
+- Fast development with Vite
+
+## 🛠️ Technologies
 
 - React
 - Vite
-- JavaScript
+- React Router
+- JavaScript (ES6+)
 - CSS
 
-## Installation
+## 📦 Installation
 
 ```bash
 npm install
 npm run dev
 ```
-
-## Build
-
-```bash
-npm run build
-```
-
-## Live Demo
-
-https://fshoja.github.io/react-chair-store/
-
-## GitHub Repository
-
-https://github.com/fshoja/react-chair-store
-
-## Author
-
-F Shoja

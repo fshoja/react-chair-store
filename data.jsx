@@ -2,73 +2,37 @@
 export const products = [
   {
     id: 1,
-    image: "./public/images/gal-1.jpeg",
-    title: "iman",
+    title: "صندلی راحتی نوردیک",
+    desc: "یک صندلی راحتی با طراحی مدرن، پارچه‌ای نرم و پایه‌های چوبی مقاوم. انتخابی ایده‌آل برای اتاق نشیمن، اتاق خواب یا فضای مطالعه.",
     price: 120,
+     img:'../images/01.jpg'
   },
   {
     id: 2,
-    image: './public/images/gal-2.jpeg',
-    title: "ehsan",
-    price: 180,
+    title: "صندلی مخمل لوکس",
+    desc: "صندلی مخملی با طراحی شیک و نشیمنی بسیار راحت که جلوه‌ای خاص به دکوراسیون منزل یا محل کار شما می‌بخشد.",
+    price: 120,
+     img:'../images/02.jpg'
   },
   {
     id: 3,
-    image: './public/images/gal-3.jpeg',
-    title: "sajad",
-    price: 18-10,
+    title: "صندلی اسکاندیناوی",
+    desc: "الهام‌گرفته از سبک اسکاندیناوی با خطوط ساده، پارچه باکیفیت و پایه‌های چوبی مستحکم. ترکیبی از زیبایی و راحتی.",
+    price: 140,
+     img:'../images/03.jpg'
   },
   {
     id: 4,
-    image: './public/images/gal-4.jpeg',
-    title: "amin",
-    price: 140,
+    title: "مبل تک‌نفره مدرن",
+    desc: "یک مبل تک‌نفره جمع‌وجور با طراحی مینیمال و نشیمنی نرم که برای خانه، دفتر کار یا فضاهای کوچک بسیار مناسب است.",
+    price: 150,
+     img:'../images/04.jpg'
   },
   {
     id: 5,
-    image: './public/images/gal-5.jpeg',
-    title: "ali",
-    price: 10,
+    title: "صندلی مطالعه کلاسیک",
+    desc: "صندلی‌ای با طراحی ارگونومیک و متریال باکیفیت که راحتی فوق‌العاده‌ای را برای مطالعه، استراحت و استفاده روزمره فراهم می‌کند.",
+    price: 160,
+     img:'../images/05.jpg'
   },
 ];
-
-
-
-
-
-
-export const  showDate=()=> {
-  const months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-  ];
-
-  const days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-  ];
-
-  const now = new Date();
-
-  const day = days[now.getDay()];
-  const month = months[now.getMonth()];
-  const date = now.getDate();
-  const year = now.getFullYear();
-
-  return `${day} ${date} ${month} ${year}`;
-}

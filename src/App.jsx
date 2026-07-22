@@ -1,8 +1,29 @@
 import React from 'react'
-import Weaterapp from './component/Weaterapp'
-
+import './App.css'
+import Shop from './pages/shop/Shop'
+import { Link, Route, Router, Routes } from 'react-router-dom'
+import Cart from './pages/cart/Cart'
+import Header from './comp/header/Header'
 export default function App() {
   return (
-<Weaterapp/>
+
+
+ <>
+
+
+
+
+
+
+ <Routes>
+  <Route path='/' element={<Shop/>}/>
+  <Route path='/chair/:id' element={<Cart/>}/>
+
+</Routes>
+ 
+ </>
+
+
+
   )
 }
