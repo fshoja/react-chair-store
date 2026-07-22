@@ -21,13 +21,14 @@ export default function Shop() {
 {item.desc}    </p>
 
     <div className="box-img">  
-         <img src={item.img} alt="" /> </div>
+         <img src={item.img} alt="" />
+          </div>
    
    
 <div className="info">
      <p className="price">${item.price}</p>
-     <Link to={ `/chair/${item.id}`}>
-          <a className='btn' href="#">See More</a>
+     <Link to={ `/chair/${item.id}`} className='btn'>
+          See More
  
      </Link>
   

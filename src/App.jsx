@@ -11,10 +11,6 @@ export default function App() {
  <>
 
 
-
-
-
-
  <Routes>
   <Route path='/' element={<Shop/>}/>
   <Route path='/chair/:id' element={<Cart/>}/>
